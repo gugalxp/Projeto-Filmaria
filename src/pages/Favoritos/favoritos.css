@@ -1,0 +1,39 @@
+.meus-Filmes{
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    padding: 1rem;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+ul {
+    padding: 0;
+    color: white;
+}
+
+ul li {
+    padding: 15px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #e50914;
+}
+.detalhes {
+    color: #e50914;
+    margin-right: 1rem;
+    text-decoration: none;
+    border-bottom: 1px solid #e50914;
+}
+
+.excluir {
+    cursor: pointer;
+}
+
+.mensagemError{
+    color: #e50914;
+}

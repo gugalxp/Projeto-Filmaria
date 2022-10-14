@@ -1,0 +1,29 @@
+.not-found {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.514);
+}
+.not-found a {
+    color: #fff;
+    background-color: #e50914;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.not-found a:hover {
+    opacity: .7;
+}
+.title-not-found {
+    font-size: 50px;
+    color: #e50914;
+    border: none;
+}
+
+.msg-not-found {
+    color: #e50914;
+    border: none;
+}
